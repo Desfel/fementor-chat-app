@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     padding: 30px 16.5px 12px 15.5px;
-    background: $gradientReverseColor;
+    background: $gradientColor;
     border-radius: 20px 20px 6px 6px;
 
     &:before {
@@ -187,7 +187,10 @@
 
       .partner-message {
         margin-left: auto;
-        box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.045318);
+
+        &:not(.img-block) {
+          box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.045318);
+        }
       }
 
       .img-block {
