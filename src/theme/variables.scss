@@ -3,6 +3,26 @@
 $vue-color: #46bd87;
 $danger-color: #ea4d46;
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+$textFont: 'Rubik', sans-serif;
+
+$gradientColor: linear-gradient(225deg,hsl(293, 100%, 63%)  0%, hsl(264, 100%, 61%) 100%);
+$gradientReverseColor: linear-gradient(-225deg,hsl(293, 100%, 63%)  0%, hsl(264, 100%, 61%) 100%);
+
+$textColor1: hsl(276, 100%, 81%); //sub-heading at the top of the app UI
+$textColor2: hsl(276, 55%, 52%); //chat on the left
+$textColor3: hsl(271, 15%, 43%); //chat on the right
+$textColor4: hsl(206, 6%, 79%); //placeholder text
+$textColor5: hsl(271, 36%, 24%); //main heading
+$textColor6: hsl(270, 7%, 64%); //paragraph
+
+$secondaryColor1: hsl(0, 0%, 100%); //White
+$secondaryColor2: hsl(270, 20%, 96%); //app background
+$secondaryColor3: hsl(271, 36%, 24%); //submit button background
+$secondaryColor4: hsl(289, 100%, 72%); //radio button outline
+
+$leftChatBg: hsla(276, 41%, 93%, 1);
+
 /* Navbar */
 
 $navbar-height: 3.6rem;
